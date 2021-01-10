@@ -1,0 +1,77 @@
+body
+{
+	background-color: #c6ebc9;
+	margin: 0;
+	padding: 0;
+}
+h3
+{
+	
+	text-align: center;
+	margin: 0;
+}
+.mainBox
+{
+	background-color:  #70af85;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 25px;
+  
+  width: 300px;
+}
+
+.resultContainer
+{
+	
+	background-color: #184d47;
+	display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 25px 0 10px;
+    
+
+}
+.resultContainer #result
+{
+	word-wrap: break-word;
+	color: #c6ebc9;
+	max-width: calc(100% - 60px);
+	padding: 10px ;
+}
+.resultContainer #copy
+{
+	width: 40px;
+	height: 40px;
+	border: 2px solid #c6ebc9;
+	outline: none;
+	cursor: pointer;
+	background-color: #184d47;
+
+}
+.resultContainer i
+{
+	font-size: 1.2rem;
+	color: #c6ebc9;
+
+}
+.option
+{
+	display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.generatorButton
+{
+	border: none;
+	outline: none;
+	border-radius: 7px;
+	background-color: #c6ebc9;
+	height: 40px;
+	width: 100%;
+	cursor: pointer;
+	font-size: 0.9rem;
+	
+}

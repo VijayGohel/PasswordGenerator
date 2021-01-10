@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Password Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="https://kit.fontawesome.com/5946e66caa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<div class="mainBox">
+
+		<h3>Password Generator</h3>
+		
+		<div class="resultContainer"><span id="result"></span> <button id="copy"><i class="far fa-clipboard"></i></button></div>
+	
+
+	<div class="option">
+	<label>Password length</label>
+	<input type="number" id="length" min="4" max="20" value="10">
+	</div>
+
+	<div class="option">
+	<label>Include uppercase letters</label>
+	<input type="checkbox" id="uppercase" checked>
+	</div>
+
+	<div class="option">
+	<label>Include lowercase letters</label>
+	<input type="checkbox" id="lowercase" checked>
+	</div>
+
+	<div class="option">
+	<label>Include numbers</label>
+	<input type="checkbox" id="numbers" checked>
+	</div>
+
+	<div class="option">
+	<label>Include symbols</label>
+	<input type="checkbox" id="symbols" checked>	
+	</div>
+
+	<div >
+		<button class="generatorButton">Generate Password</button>
+	</div>
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
